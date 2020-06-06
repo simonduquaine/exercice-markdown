@@ -9,9 +9,9 @@
   
 
 ## Objectifs du travail de groupe 
-- Apprendre le MarkDown ainsi que son utilité
-- Utiliser Git pour réaliser le projet
-- Être capable de suivre les instructions d'un briefing à la lettre  
+- Apprendre le **MarkDown** ainsi que son utilité
+- Utiliser **Git** pour réaliser le projet
+- Être capable de *suivre les instructions d'un briefing à la lettre*  
   
 ## Instructions du travail de groupe
 
