@@ -13,5 +13,7 @@
 - Utiliser **Git** pour réaliser le projet
 - Être capable de *suivre les instructions d'un briefing à la lettre*  
   
-## Instructions du travail de groupe
+## Instructions du travail de groupe  
+Nous avons eu comme consigne de réaliser un pense-bête sur qu'est-ce que le MarkDown ainsi qu'un inventaire complet de sa syntaxe.  
+Nous devrons réaliser le travail par groupe de 4 à 5 personnes.  
 
