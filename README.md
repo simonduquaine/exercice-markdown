@@ -1,4 +1,4 @@
-# Travail de groupe sur le MarkDown.
+# Travail de groupe sur le MarkDown
 
 ## Créateurs:
 - [@Florian Dorsimont](https://github.com/THE-HYPOCHRIST)
