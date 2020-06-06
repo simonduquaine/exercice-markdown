@@ -1,1 +1,4 @@
-# Exercice MarkDown : Intelligence Collective
+# Exercice MarkDown : Intelligence Collective  
+
+## Créateurs  
+
