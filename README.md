@@ -24,7 +24,7 @@ Le contenu du travail devra être organisé dans au moins deux documents en Mark
 Le travail de groupe devra être rendu pour le mardi 9 juin 2020 à 16H30 au plus tard.  
   
 
-## Créateurs:
+## Membres du groupe:
 - [@Florian Dorsimont](https://github.com/THE-HYPOCHRIST)
 - [@Robin Jacquemart](https://github.com/JackRob)
 - [@Jurgen Cruz](https://github.com/jcruz97)
