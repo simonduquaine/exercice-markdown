@@ -1,6 +1,6 @@
 # Exercice MarkDown : Intelligence Collective  
 
-## Créateurs
+## Créateurs:
 - [@Florian Dorsimont](https://github.com/THE-HYPOCHRIST)
 - [@Robin Jacquemart](https://github.com/JackRob)
 - [@Jurgen Cruz](https://github.com/jcruz97)
