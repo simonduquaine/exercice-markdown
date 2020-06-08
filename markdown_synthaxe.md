@@ -33,7 +33,7 @@ Headers go from 1 (the largest) to 6 (the smallest) and are written like this :
  * `##### H5`<br/>
  * `###### H6`<br/>
 
-#### Dispayed :
+  #### Dispayed :
 
  # H1
  ## H2
@@ -52,7 +52,7 @@ Headers go from 1 (the largest) to 6 (the smallest) and are written like this :
 
 </br>
 
-#### Dispayed :
+  #### Dispayed :
 
 H1
 ===
@@ -65,7 +65,7 @@ H2
 
 
  
- ### **1.3 Blockquotes**
+### **1.3 Blockquotes**
 
 ### **1.4 Lists**
 
@@ -78,6 +78,7 @@ H2
 
 
 ### **2.1 Links**
+
 You can highlight a word or even a sentence as a link access.
 URL's or repositories have adresses that can be linked.
 If a URL is not put into braces 
@@ -88,7 +89,7 @@ If a URL is not put into braces
    
 3. `[I'm a relative reference to a repository file](../blob/master/LICENSE)`
 
-#### Dispayed :
+  #### Dispayed :
 
 1. This is [an example](http://example.com/ "Title") inline link.
    
@@ -112,6 +113,7 @@ If a URL is not put into braces
 ### **3.1 Backslash Escapes**
 
 ### **3.2 Automatic Links**
+
 If an e-mail adress or a website link is put w/o any markup synthax, Markdown will automatically "translate" it into usable links:
 
 For example, this : ``https://fr.wikipedia.org/wiki/Queen`` will become this : https://fr.wikipedia.org/wiki/Queen, awesome isn't it? 
