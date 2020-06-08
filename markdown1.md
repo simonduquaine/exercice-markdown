@@ -1,3 +1,22 @@
+# Markdown Language
+
+## What's Markdown ?
+
+Markdown is a *lightweight* markup language create in 2004 by **John Gruber & Aaron Swartz**. The markdown language is easy-to-read and easy-to-write. 
+
+Use for Git/Github/.. in the READMe files, the markdown language is also use for discord and trello thanks to is easy-to-use synthaxes. 
+
+You need to create a **checklist** for your project ? No problem.  
+You need to create a **content page** ? No problem.  
+You want some **emojis** in your file ? No problem. ( But not too much.. )
+
+## So, don't hesitate and try Markdown, it's fun ! 
+
+![Fun](https://media.giphy.com/media/110F1JFzWKtiA8/giphy.gif)  
+
+
+Markdown   
+
 # *MARKDOWN*
 
 ## WHAT IS __***MARKDOWN***__ ?
@@ -6,10 +25,9 @@ MARKDOWN IS LANGUAGE FOR WRITING FOR THE WEB; IT'S MISSION : TO BE EASY TO READ 
 
 MARKDOWN IS INSPIRED BY THE RAW FORMAT OF EMAILS.  
 TO THIS END, IT'S COMPOSED ONLY OF PUNCTUATION CHARACTERS, WHICH HAVE BEEN CHOSEN TO LOOK LIKE WHAT THEY MEAN.
-=======
 
 Markdown
-======
+
 
 ## Short story
 
@@ -41,8 +59,16 @@ Easy to use, it has been used since 2004 and is well supported in numerous websi
 
  ![BeCode](https://becode.org/app/uploads/2020/03/bc_mailsign_seal.png)
  
+AD
+# *MARKDOWN*
 
+## WHAT IS __***MARKDOWN***__ ?
 
+MARKDOWN IS LANGUAGE FOR WRITING FOR THE WEB; IT'S MISSION : TO BE EASY TO READ AND WRITE AS POSSIBLE. BUT MOSTLY TO BE READIBLE AS-IS, AS PLAIN TEXT.
+
+MARKDOWN IS INSPIRED BY THE RAW FORMAT OF EMAILS.  
+TO THIS END, IT'S COMPOSED ONLY OF PUNCTUATION CHARACTERS, WHICH HAVE BEEN CHOSEN TO LOOK LIKE WHAT THEY MEAN.
+![Fun](https://media.giphy.com/media/110F1JFzWKtiA8/giphy.gif)
 
 # MarkDown
 ## Synthax
@@ -62,7 +88,6 @@ You might be wondering why people use MarkDown? There are many reasons!
 > - [Markdownguide](https://www.markdownguide.org/getting-started/#:~:text=Markdown%20can%20be%20used%20for,opened%20using%20virtually%20any%20application.)
 > - [Github](https://guides.github.com/features/mastering-markdown/)
 > - [Wikipedia](https://fr.wikipedia.org/wiki/Markdown)  
-
 
 
 # What is Markdown?

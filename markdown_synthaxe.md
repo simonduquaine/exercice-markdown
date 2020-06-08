@@ -1,4 +1,4 @@
-# La Synthaxe et l'utilisation du Markdown
+# How to use syntaxe of Markdown ?
 
 1. [Block Elements](#1-block-elements)  
    1.1 [Paragraphs and Line Break](#11-paragraphs-and-line-break)  
@@ -70,10 +70,23 @@ H2
 </br>
 
 
- 
-### **1.3 Blockquotes**
+ ### **1.3 Blockquotes**
 
-### **1.4 Lists**  
+Using for quoting passages of a text, or just quotes someone, the block quotes is usefull.   
+For *blockquote* a line, you need to use the "**>**" symbol before your line.  
+If you need to blockquote a paragraph with more than **one line**, you have to put the symbol "**>**" before first line of the paragraph.  
+
+**Exemple  :**
+>\>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.  
+\>  
+>\>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+**Render :**  
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+>
+>Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  
+  ### **1.4 Lists**  
 **MarkDown** supports ordered and unordered lists.  
 - **Unordered** lists use asterisks(*), pluses(+), and hyphens(-) as list markers:  
    #### Exemple for * : 
@@ -99,7 +112,7 @@ It's important to note that the actual numbers you use does not matter.
    > 1. first item 
    > 2. second item
    > 3. third item
-   2. #### Exemple for numbers that doesn't follow each other :
+   1. #### Exemple for numbers that doesn't follow each other :
    > 5\. fifth item  
    > 8\. sixth item  
    > 10\. seventh item
@@ -107,7 +120,7 @@ It's important to note that the actual numbers you use does not matter.
    > 5. fifth item  
    > 8. sixth item  
    > 10. seventh item  
-   3. #### Exemple if you always use the same number:
+   1. #### Exemple if you always use the same number:
    > 1\. first item  
    > 1\. second item  
    > 1\. third item  
@@ -115,12 +128,7 @@ It's important to note that the actual numbers you use does not matter.
    > 1. first item
    > 1. second item
    > 1. third item
-<<<<<<< HEAD
-=======
-
-
-
->>>>>>> 1db49e88a97d38df9f0d1101b763da4c5a305f9b
+   
 ### **1.5 Code Blocks**
 To be able to insert text in HTML, just paste the HTML text and type on TAB
 
@@ -191,6 +199,32 @@ If a URL is not put into braces
 
 ### **2.2 Emphasis**
 
+
+Emphasis in Markdown are very simple.  
+To create *italic* or **bold** word or paragraphe, you need to use "**_**" or "__*__" character.   
+  
+Exemple :  
+  >- \_single underscore_ 
+  >- \_\_double underscore__  
+  >- \*single asterisk*
+  >- \*\*double asterisks**
+
+Render :
+
+>- _single underscore_
+>- __double underscore__
+>- *single asterisk*
+>- **double asterisk**
+
+And if you want, you can combine them ! 
+
+So this : 
+>\*\*Text \_here_**
+
+Will be :
+>**Text _here_**
+
+
 ### **2.3 Code**
 To indicate a span of code, wrap it with backtick quotes(\`).  
 This is used to indicate code within a normal paragraph.  
@@ -203,16 +237,13 @@ you can use multiple backticks as the opeing and closing delimiters.
    > \`\` There is a backtick here -> ` ``
    #### The output:
    > `` There is a backtick here -> ` `` 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 1db49e88a97d38df9f0d1101b763da4c5a305f9b
 ### **2.4 Images**
 
 To insert a still or dynamic image:
 
    *![sitename]\(linkofthesite) = image which is not clickable
+
 
 Example:
 ![Giphy.com](https://media.giphy.com/media/aacdmWnYUMRkk/giphy.gif)
@@ -253,6 +284,8 @@ Markdown provides backslash escapes for the following characters:
 11. `.`   dot
 
 12. `!`  exclamation mark
+
+
 ### **3.2 Automatic Links**
 
 If an e-mail adress or a website link is put w/o any markup synthax, Markdown will automatically "translate" it into usable links:
