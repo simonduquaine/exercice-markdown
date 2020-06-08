@@ -38,6 +38,7 @@ When you do want to insert a <\br> break tag using Markdown, you end a line with
 
 ### **1.6 Horizontal Rules**
 
+You can produce a horizontal rule tag (<\hr>) by placing three or more hyphens, asterisks, or underscores on a line by themselves. If you wish, you may use spaces between the hyphens or asterisks.
 
 ## **2. Span Elements**
 
@@ -55,5 +56,33 @@ When you do want to insert a <\br> break tag using Markdown, you end a line with
 
 
 ### **3.1 Backslash Escapes**
+
+Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax. For example, if you wanted to surround a word with literal asterisks (instead of an HTML <\em> tag), you can use backslashes before the asterisks.
+
+Markdown provides backslash escapes for the following characters:
+
+1. \    backshlass
+
+2. \`   backtick
+
+3. \*   asterisk
+
+4. \_   underscore
+
+5. \{}  curly braces
+
+6. \[]  square brackets
+
+7. \()  parentheses
+
+8. \#   hashtag
+
+9. \+   plus sign
+
+10. \-   minus sign (hyphen)
+
+11. \.   dot
+
+12. \!   exclamation mark
 
 ### **3.2 Automatic Links**
