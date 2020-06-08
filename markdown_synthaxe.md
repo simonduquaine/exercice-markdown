@@ -1,4 +1,4 @@
-# La Synthaxe et l'utilisation du Markdown
+# How to use syntaxe of Markdown ?
 
 1. [Block Elements](#1-block-elements)  
    1.1 [Paragraphs and Line Break](#11-paragraphs-and-line-break)  
@@ -40,7 +40,7 @@ Headers go from 1 (the largest) to 6 (the smallest) and are written like this :
  * `##### H5`<br/>
  * `###### H6`<br/>
 
-#### Dispayed :
+  #### Dispayed :
 
  # H1
  ## H2
@@ -59,7 +59,7 @@ Headers go from 1 (the largest) to 6 (the smallest) and are written like this :
 
 </br>
 
-#### Dispayed :
+  #### Dispayed :
 
 H1
 ===
@@ -88,11 +88,86 @@ If you need to blockquote a paragraph with more than **one line**, you have to p
 >
 >Lorem ipsum dolor sit amet, consectetur adipiscing elit
   
-  
+  ### **1.4 Lists**  
+**MarkDown** supports ordered and unordered lists.  
+- **Unordered** lists use asterisks(*), pluses(+), and hyphens(-) as list markers:  
+   #### Exemple for * : 
+   > \* first item  
+   > \* second item  
+   > \* third item  
+   #### Exemple for + : 
+   > \+ first item  
+   > \+ second item  
+   > \+ third item
+   #### Exemple for - : 
+   > \- first item  
+   > \- second item  
+   > \- third item
+   #### The output: 
+   > * first item
+   > * second item
+   > * third item  
 
-### **1.4 Lists**
-
+- **Ordered** lists use numbers followed by periods.  
+It's important to note that the actual numbers you use does not matter.
+   1. #### Exemple for numbers that follow each other :
+   > 1. first item 
+   > 2. second item
+   > 3. third item
+   2. #### Exemple for numbers that doesn't follow each other :
+   > 5\. fifth item  
+   > 8\. sixth item  
+   > 10\. seventh item
+   #### The output :
+   > 5. fifth item  
+   > 8. sixth item  
+   > 10. seventh item  
+   3. #### Exemple if you always use the same number:
+   > 1\. first item  
+   > 1\. second item  
+   > 1\. third item  
+   #### The output
+   > 1. first item
+   > 1. second item
+   > 1. third item
+   
 ### **1.5 Code Blocks**
+To be able to insert text in HTML, just paste the HTML text and type on TAB
+
+Example:
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+    <html>
+    <head>
+    <title>Ma première page avec du style</title>
+    </head>
+    
+    <body>
+    
+    <!-- Menu de navigation du site -->
+    <ul class="navbar">
+    <li><a href="index.html">Home page</a>
+    <li><a href="reflexions.html">Réflexions</a>
+    <li><a href="ville.html">Ma ville</a>
+    <li><a href="liens.html">Liens</a>
+    </ul>
+    
+    <!-- Contenu principal -->
+    <h1>Ma première page avec du style</h1>
+    
+    <p>Bienvenue sur ma page avec du style! 
+    
+    <p>Il lui manque des images, mais au moins, elle a du style. Et elle a desliens, même s'ils ne mènent nulle part...
+    &hellip;
+    
+    <p>Je devrais étayer, mais je ne sais comment encore.
+    
+    <!-- Signer et dater la page, c'est une question de politesse! -->
+    <address>Fait le 5 avril 2004<br>
+    par moi.</address>
+    
+    </body>
+    </html>
 
 ### **1.6 Horizontal Rules**
 
@@ -102,6 +177,7 @@ You can produce a horizontal rule tag ( `<hr />` ) by placing three or more hyph
 
 
 ### **2.1 Links**
+
 You can highlight a word or even a sentence as a link access.
 URL's or repositories have adresses that can be linked.
 If a URL is not put into braces 
@@ -112,7 +188,7 @@ If a URL is not put into braces
    
 3. `[I'm a relative reference to a repository file](../blob/master/LICENSE)`
 
-#### Dispayed :
+  #### Dispayed :
 
 1. This is [an example](http://example.com/ "Title") inline link.
    
@@ -125,6 +201,7 @@ If a URL is not put into braces
 
 ### **2.2 Emphasis**
 
+<<<<<<< HEAD
 Emphasis in Markdown are very simple.  
 To create *italic* or **bold** word or paragraphe, you need to use "**_**" or "__*__" character.   
   
@@ -149,11 +226,37 @@ So this :
 Will be :
 >**Text _here_**
 
-
+=======
 ### **2.3 Code**
+To indicate a span of code, wrap it with backtick quotes(\`).  
+This is used to indicate code within a normal paragraph.  
+- #### Exemple: 
+   > Use the `printf()` function.  
 
+If you want to include a literal backtick charachter within a code span,  
+you can use multiple backticks as the opeing and closing delimiters.
+- #### Exemple: 
+   > \`\` There is a backtick here -> ` ``
+   #### The output:
+   > `` There is a backtick here -> ` `` 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1db49e88a97d38df9f0d1101b763da4c5a305f9b
 ### **2.4 Images**
 
+To insert a still or dynamic image:
+
+   *![sitename]\(linkofthesite) = image which is not clickable
+>>>>>>> f7191dd697d43ecc79f2754888a47ed98cbbe141
+
+Example:
+![Giphy.com](https://media.giphy.com/media/aacdmWnYUMRkk/giphy.gif)
+
+   *[![sitename]\(linkofpicture)]\(linkofthesite) = image which refers to the site
+
+Example: [![Prestashop2.com](https://assets.prestashop2.com/sites/default/files/styles/blog_750x320/public/blog/fr/files/2015/01/7-resources-code-1024x537.png?itok=AXSLDOKg)](https://www.prestashop.com/fr)
 
 ## **3. Miscellaneous**
 
@@ -190,6 +293,10 @@ Markdown provides backslash escapes for the following characters:
 
 
 ### **3.2 Automatic Links**
+<<<<<<< HEAD
+=======
+
+>>>>>>> f7191dd697d43ecc79f2754888a47ed98cbbe141
 If an e-mail adress or a website link is put w/o any markup synthax, Markdown will automatically "translate" it into usable links:
 
 For example, this : ``https://fr.wikipedia.org/wiki/Queen`` will become this : https://fr.wikipedia.org/wiki/Queen, awesome isn't it? 
