@@ -82,6 +82,7 @@ It's important to note that the actual numbers you use does not matter.
 
 ### **2.3 Code**
 
+
 ### **2.4 Images**
 
 
