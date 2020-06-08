@@ -109,7 +109,46 @@ It's important to note that the actual numbers you use does not matter.
    > 1. first item
    > 1. second item
    > 1. third item
+
+
+
 ### **1.5 Code Blocks**
+To be able to insert text in HTML, just paste the HTML text and type on TAB
+
+Example:
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+    <html>
+    <head>
+    <title>Ma première page avec du style</title>
+    </head>
+    
+    <body>
+    
+    <!-- Menu de navigation du site -->
+    <ul class="navbar">
+    <li><a href="index.html">Home page</a>
+    <li><a href="reflexions.html">Réflexions</a>
+    <li><a href="ville.html">Ma ville</a>
+    <li><a href="liens.html">Liens</a>
+    </ul>
+    
+    <!-- Contenu principal -->
+    <h1>Ma première page avec du style</h1>
+    
+    <p>Bienvenue sur ma page avec du style! 
+    
+    <p>Il lui manque des images, mais au moins, elle a du style. Et elle a desliens, même s'ils ne mènent nulle part...
+    &hellip;
+    
+    <p>Je devrais étayer, mais je ne sais comment encore.
+    
+    <!-- Signer et dater la page, c'est une question de politesse! -->
+    <address>Fait le 5 avril 2004<br>
+    par moi.</address>
+    
+    </body>
+    </html>
 
 ### **1.6 Horizontal Rules**
 
@@ -154,8 +193,20 @@ you can use multiple backticks as the opeing and closing delimiters.
    > \`\` There is a backtick here -> ` ``
    #### The output:
    > `` There is a backtick here -> ` `` 
+
+
 ### **2.4 Images**
 
+To insert a still or dynamic image:
+
+   *![sitename]\(linkofthesite) = image which is not clickable
+
+Example:
+![Giphy.com](https://media.giphy.com/media/aacdmWnYUMRkk/giphy.gif)
+
+   *[![sitename]\(linkofpicture)]\(linkofthesite) = image which refers to the site
+
+Example: [![Prestashop2.com](https://assets.prestashop2.com/sites/default/files/styles/blog_750x320/public/blog/fr/files/2015/01/7-resources-code-1024x537.png?itok=AXSLDOKg)](https://www.prestashop.com/fr)
 
 ## **3. Miscellaneous**
 
