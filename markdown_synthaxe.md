@@ -26,8 +26,48 @@
 
 ### **1.3 Blockquotes**
 
-### **1.4 Lists**
+### **1.4 Lists**  
+MarkDown supports ordered and unordered lists.  
+- **Unordered** lists use asterisks(*), pluses(+), and hyphens(-) as list markers:  
+#### Exemple for * : 
+> \* first item  
+> \* second item  
+> \* third item  
+#### Exemple for + : 
+> \+ first item  
+> \+ second item  
+> \+ third item
+#### Exemple for - : 
+> \- first item  
+> \- second item  
+> \- third item
+#### The output: 
+> * first item
+> * second item
+> * third item  
 
+- **Ordered** lists use numbers followed by periods.  
+It's important to note that the actual numbers you use does not matter.
+1. #### Exemple for numbers that follow each other :
+> 1. first item 
+> 2. second item
+> 3. third item
+2. #### Exemple for numbers that doesn't follow each other :
+> 5\. fifth item  
+> 8\. sixth item  
+> 10\. seventh item
+#### The output :
+> 5. fifth item  
+> 8. sixth item  
+> 10. seventh item  
+3. #### Exemple if you always use the same number:
+> 1\. first item  
+> 1\. second item  
+> 1\. third item  
+#### The output
+> 1. first item
+> 1. second item
+> 1. third item
 ### **1.5 Code Blocks**
 
 ### **1.6 Horizontal Rules**
