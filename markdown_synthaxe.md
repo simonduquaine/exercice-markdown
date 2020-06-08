@@ -24,7 +24,42 @@
 
 ### **1.2 Headers**
 
-### **1.3 Blockquotes**
+Headers go from 1 (the largest) to 6 (the smallest) and are written like this :
+  
+ * `# H1`<br/> 
+ * `## H2`<br/>
+ * `### H3` <br/>
+ * `#### H4`<br/>
+ * `##### H5`<br/>
+ * `###### H6`<br/>
+
+#### Dispayed :
+
+ # H1
+ ## H2
+ ### H3
+ #### H4
+ ##### H5
+ ###### H6
+
+ *But there is another way to write `# H1` and `## H2` if needed :*
+
+`H1`</br>
+`===========`
+
+`H2`</br>
+`-----------`
+
+#### Dispayed :
+
+H1
+===
+
+H2
+---
+
+ 
+ ### **1.3 Blockquotes**
 
 ### **1.4 Lists**
 
@@ -37,7 +72,7 @@
 
 
 ### **2.1 Links**
-
+me
 ### **2.2 Emphasis**
 
 ### **2.3 Code**
@@ -51,3 +86,4 @@
 ### **3.1 Backslash Escapes**
 
 ### **3.2 Automatic Links**
+me
