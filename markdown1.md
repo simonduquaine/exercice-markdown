@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-  Markdown   
-=========== 
-
- *For a clear synthax guide go [here](#)*
+Markdown
+======
 
 ## Short story
 
@@ -53,4 +50,3 @@ You might be wondering why people use MarkDown? There are many reasons!
 > - [Markdownguide](https://www.markdownguide.org/getting-started/#:~:text=Markdown%20can%20be%20used%20for,opened%20using%20virtually%20any%20application.)
 > - [Github](https://guides.github.com/features/mastering-markdown/)
 > - [Wikipedia](https://fr.wikipedia.org/wiki/Markdown)  
->>>>>>> 5d5370bad64a25761436b5f7cbd63c7bfc0a23eb
