@@ -30,6 +30,47 @@ When you do want to insert a `<br />` break tag using Markdown, you end a line w
 
 ### **1.2 Headers**
 
+Headers go from 1 (the largest) to 6 (the smallest) and are written like this :
+  
+ * `# H1`<br/> 
+ * `## H2`<br/>
+ * `### H3` <br/>
+ * `#### H4`<br/>
+ * `##### H5`<br/>
+ * `###### H6`<br/>
+
+  #### Dispayed :
+
+ # H1
+ ## H2
+ ### H3
+ #### H4
+ ##### H5
+ ###### H6
+
+ *But there is another way to write `# H1` and `## H2` if needed :*
+
+`H1`</br>
+`===========`
+
+`H2`</br>
+`-----------`
+
+</br>
+
+  #### Dispayed :
+
+H1
+===
+</br>
+
+H2
+---
+
+</br>
+
+
+ 
 ### **1.3 Blockquotes**
 
 ### **1.4 Lists**  
@@ -74,7 +115,49 @@ It's important to note that the actual numbers you use does not matter.
    > 1. first item
    > 1. second item
    > 1. third item
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 1db49e88a97d38df9f0d1101b763da4c5a305f9b
 ### **1.5 Code Blocks**
+To be able to insert text in HTML, just paste the HTML text and type on TAB
+
+Example:
+
+    <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+    <html>
+    <head>
+    <title>Ma première page avec du style</title>
+    </head>
+    
+    <body>
+    
+    <!-- Menu de navigation du site -->
+    <ul class="navbar">
+    <li><a href="index.html">Home page</a>
+    <li><a href="reflexions.html">Réflexions</a>
+    <li><a href="ville.html">Ma ville</a>
+    <li><a href="liens.html">Liens</a>
+    </ul>
+    
+    <!-- Contenu principal -->
+    <h1>Ma première page avec du style</h1>
+    
+    <p>Bienvenue sur ma page avec du style! 
+    
+    <p>Il lui manque des images, mais au moins, elle a du style. Et elle a desliens, même s'ils ne mènent nulle part...
+    &hellip;
+    
+    <p>Je devrais étayer, mais je ne sais comment encore.
+    
+    <!-- Signer et dater la page, c'est une question de politesse! -->
+    <address>Fait le 5 avril 2004<br>
+    par moi.</address>
+    
+    </body>
+    </html>
 
 ### **1.6 Horizontal Rules**
 
@@ -84,6 +167,27 @@ You can produce a horizontal rule tag ( `<hr />` ) by placing three or more hyph
 
 
 ### **2.1 Links**
+
+You can highlight a word or even a sentence as a link access.
+URL's or repositories have adresses that can be linked.
+If a URL is not put into braces 
+
+1. `This is [an example](http://example.com/ "Title") inline link.`
+
+2. `[This link](http://example.net/)`
+   
+3. `[I'm a relative reference to a repository file](../blob/master/LICENSE)`
+
+  #### Dispayed :
+
+1. This is [an example](http://example.com/ "Title") inline link.
+   
+2. [This link](http://example.net/)
+
+3. [I'm a relative reference to a repository file](../blob/master/LICENSE)
+
+</br> 
+
 
 ### **2.2 Emphasis**
 
@@ -99,8 +203,23 @@ you can use multiple backticks as the opeing and closing delimiters.
    > \`\` There is a backtick here -> ` ``
    #### The output:
    > `` There is a backtick here -> ` `` 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1db49e88a97d38df9f0d1101b763da4c5a305f9b
 ### **2.4 Images**
 
+To insert a still or dynamic image:
+
+   *![sitename]\(linkofthesite) = image which is not clickable
+
+Example:
+![Giphy.com](https://media.giphy.com/media/aacdmWnYUMRkk/giphy.gif)
+
+   *[![sitename]\(linkofpicture)]\(linkofthesite) = image which refers to the site
+
+Example: [![Prestashop2.com](https://assets.prestashop2.com/sites/default/files/styles/blog_750x320/public/blog/fr/files/2015/01/7-resources-code-1024x537.png?itok=AXSLDOKg)](https://www.prestashop.com/fr)
 
 ## **3. Miscellaneous**
 
@@ -135,3 +254,22 @@ Markdown provides backslash escapes for the following characters:
 
 12. `!`  exclamation mark
 ### **3.2 Automatic Links**
+
+If an e-mail adress or a website link is put w/o any markup synthax, Markdown will automatically "translate" it into usable links:
+
+For example, this : ``https://fr.wikipedia.org/wiki/Queen`` will become this : https://fr.wikipedia.org/wiki/Queen, awesome isn't it? 
+
+<br/>  
+
+In fact, Markdown will refer to the adress in HTML code like this :
+```HTML 
+<a href="https://fr.wikipedia.org/wiki/Queen">https://fr.wikipedia.org/wiki/Queen</a>
+```
+It's the same procedure with an e-mail address as address@example.com referred like this in Markdown :
+
+```HTML
+<a href="&#x6D;&#x61;i&#x6C;&#x74;&#x6F;:&#x61;&#x64;&#x64;&#x72;&#x65;
+&#115;&#115;&#64;&#101;&#120;&#x61;&#109;&#x70;&#x6C;e&#x2E;&#99;&#111;
+&#109;">&#x61;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#64;&#101;&#120;&#x61;
+&#109;&#x70;&#x6C;e&#x2E;&#99;&#111;&#109;</a>
+```
