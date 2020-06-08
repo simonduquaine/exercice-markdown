@@ -30,7 +30,6 @@ When you do want to insert a `<br />` break tag using Markdown, you end a line w
 
 ### **1.2 Headers**
 
-### **1.3 Blockquotes**
 Headers go from 1 (the largest) to 6 (the smallest) and are written like this :
   
  * `# H1`<br/> 
@@ -71,7 +70,6 @@ H2
 </br>
 
 
- 
  ### **1.3 Blockquotes**
 
 Using for quoting passages of a text, or just quotes someone, the block quotes is usefull.   
@@ -114,7 +112,7 @@ It's important to note that the actual numbers you use does not matter.
    > 1. first item 
    > 2. second item
    > 3. third item
-   2. #### Exemple for numbers that doesn't follow each other :
+   1. #### Exemple for numbers that doesn't follow each other :
    > 5\. fifth item  
    > 8\. sixth item  
    > 10\. seventh item
@@ -122,7 +120,7 @@ It's important to note that the actual numbers you use does not matter.
    > 5. fifth item  
    > 8. sixth item  
    > 10. seventh item  
-   3. #### Exemple if you always use the same number:
+   1. #### Exemple if you always use the same number:
    > 1\. first item  
    > 1\. second item  
    > 1\. third item  
@@ -201,7 +199,7 @@ If a URL is not put into braces
 
 ### **2.2 Emphasis**
 
-<<<<<<< HEAD
+
 Emphasis in Markdown are very simple.  
 To create *italic* or **bold** word or paragraphe, you need to use "**_**" or "__*__" character.   
   
@@ -226,7 +224,7 @@ So this :
 Will be :
 >**Text _here_**
 
-=======
+
 ### **2.3 Code**
 To indicate a span of code, wrap it with backtick quotes(\`).  
 This is used to indicate code within a normal paragraph.  
@@ -239,17 +237,13 @@ you can use multiple backticks as the opeing and closing delimiters.
    > \`\` There is a backtick here -> ` ``
    #### The output:
    > `` There is a backtick here -> ` `` 
-<<<<<<< HEAD
-=======
 
-
->>>>>>> 1db49e88a97d38df9f0d1101b763da4c5a305f9b
 ### **2.4 Images**
 
 To insert a still or dynamic image:
 
    *![sitename]\(linkofthesite) = image which is not clickable
->>>>>>> f7191dd697d43ecc79f2754888a47ed98cbbe141
+
 
 Example:
 ![Giphy.com](https://media.giphy.com/media/aacdmWnYUMRkk/giphy.gif)
@@ -293,10 +287,7 @@ Markdown provides backslash escapes for the following characters:
 
 
 ### **3.2 Automatic Links**
-<<<<<<< HEAD
-=======
 
->>>>>>> f7191dd697d43ecc79f2754888a47ed98cbbe141
 If an e-mail adress or a website link is put w/o any markup synthax, Markdown will automatically "translate" it into usable links:
 
 For example, this : ``https://fr.wikipedia.org/wiki/Queen`` will become this : https://fr.wikipedia.org/wiki/Queen, awesome isn't it? 
