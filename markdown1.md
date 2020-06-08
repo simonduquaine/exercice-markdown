@@ -15,4 +15,4 @@ You might be wondering why people use MarkDown? There are many reasons!
 # Learn more
 > - [Markdownguide](https://www.markdownguide.org/getting-started/#:~:text=Markdown%20can%20be%20used%20for,opened%20using%20virtually%20any%20application.)
 > - [Github](https://guides.github.com/features/mastering-markdown/)
-> - [Wikipedia](https://fr.wikipedia.org/wiki/Markdown)
+> - [Wikipedia](https://fr.wikipedia.org/wiki/Markdown)  
