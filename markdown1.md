@@ -1,5 +1,5 @@
-  Markdown
-=============
+  Markdown   
+=========== 
 
  *For a clear synthax guide go [here](#markdown2)*
 
@@ -26,4 +26,8 @@ As every coding language you need a computer (big brain time here) and a
 
 * [VS code](https://code.visualstudio.com/)
 
+* [Cheatlist](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
+
+ ![BeCode](https://becode.org/app/uploads/2020/03/bc_mailsign_seal.png)
+ 
