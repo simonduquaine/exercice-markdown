@@ -24,9 +24,9 @@
 
 A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line — a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
 
-The implication of the “one or more consecutive lines of text” rule is that Markdown supports “hard-wrapped” text paragraphs. This differs significantly from most other text-to-HTML formatters (including Movable Type’s “Convert Line Breaks” option) which translate every line break character in a paragraph into a <\br> tag.
+The implication of the “one or more consecutive lines of text” rule is that Markdown supports “hard-wrapped” text paragraphs. This differs significantly from most other text-to-HTML formatters (including Movable Type’s “Convert Line Breaks” option) which translate every line break character in a paragraph into a `<br />` tag.
 
-When you do want to insert a <\br> break tag using Markdown, you end a line with two or more spaces, then type return.
+When you do want to insert a `<br />` break tag using Markdown, you end a line with two or more spaces, then type return.
 
 ### **1.2 Headers**
 
@@ -38,7 +38,7 @@ When you do want to insert a <\br> break tag using Markdown, you end a line with
 
 ### **1.6 Horizontal Rules**
 
-You can produce a horizontal rule tag (<\hr>) by placing three or more hyphens, asterisks, or underscores on a line by themselves. If you wish, you may use spaces between the hyphens or asterisks.
+You can produce a horizontal rule tag ( `<hr />` ) by placing three or more hyphens, asterisks, or underscores on a line by themselves. If you wish, you may use spaces between the hyphens or asterisks.
 
 ## **2. Span Elements**
 
@@ -57,32 +57,30 @@ You can produce a horizontal rule tag (<\hr>) by placing three or more hyphens, 
 
 ### **3.1 Backslash Escapes**
 
-Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax. For example, if you wanted to surround a word with literal asterisks (instead of an HTML <\em> tag), you can use backslashes before the asterisks.
+Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax. For example, if you wanted to surround a word with literal asterisks (instead of an HTML `<em>` tag), you can use backslashes before the asterisks.
 
 Markdown provides backslash escapes for the following characters:
 
-1. \    backshlass
+1. `\`    backshlass
 
-2. \`   backtick
+2. `` ` backtick
+3. `*`   asterisk
 
-3. \*   asterisk
+4. `_`   underscore
 
-4. \_   underscore
+5. `{}`  curly braces
 
-5. \{}  curly braces
+6. `[]`  square brackets
 
-6. \[]  square brackets
+7. `()`  parentheses
 
-7. \()  parentheses
+8. `#`   hashtag
 
-8. \#   hashtag
+9. `+`   plus sign
 
-9. \+   plus sign
+10. `-`   minus sign (hyphen)
 
-10. \-   minus sign (hyphen)
+11. `.`   dot
 
-11. \.   dot
-
-12. \!   exclamation mark
-
+12. `!`  exclamation mark
 ### **3.2 Automatic Links**
