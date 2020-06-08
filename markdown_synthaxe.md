@@ -24,9 +24,6 @@
 
 ### **1.2 Headers**
 
-<<<<<<< HEAD
-### **1.3 Blockquotes**
-=======
 Headers go from 1 (the largest) to 6 (the smallest) and are written like this :
   
  * `# H1`<br/> 
@@ -69,10 +66,49 @@ H2
 
  
  ### **1.3 Blockquotes**
->>>>>>> ajouts-jurgen
 
-### **1.4 Lists**
+### **1.4 Lists**  
+**MarkDown** supports ordered and unordered lists.  
+- **Unordered** lists use asterisks(*), pluses(+), and hyphens(-) as list markers:  
+   #### Exemple for * : 
+   > \* first item  
+   > \* second item  
+   > \* third item  
+   #### Exemple for + : 
+   > \+ first item  
+   > \+ second item  
+   > \+ third item
+   #### Exemple for - : 
+   > \- first item  
+   > \- second item  
+   > \- third item
+   #### The output: 
+   > * first item
+   > * second item
+   > * third item  
 
+- **Ordered** lists use numbers followed by periods.  
+It's important to note that the actual numbers you use does not matter.
+   1. #### Exemple for numbers that follow each other :
+   > 1. first item 
+   > 2. second item
+   > 3. third item
+   2. #### Exemple for numbers that doesn't follow each other :
+   > 5\. fifth item  
+   > 8\. sixth item  
+   > 10\. seventh item
+   #### The output :
+   > 5. fifth item  
+   > 8. sixth item  
+   > 10. seventh item  
+   3. #### Exemple if you always use the same number:
+   > 1\. first item  
+   > 1\. second item  
+   > 1\. third item  
+   #### The output
+   > 1. first item
+   > 1. second item
+   > 1. third item
 ### **1.5 Code Blocks**
 
 ### **1.6 Horizontal Rules**
@@ -82,8 +118,6 @@ H2
 
 
 ### **2.1 Links**
-<<<<<<< HEAD
-=======
 You can highlight a word or even a sentence as a link access.
 URL's or repositories have adresses that can be linked.
 If a URL is not put into braces 
@@ -104,12 +138,21 @@ If a URL is not put into braces
 
 </br> 
 
->>>>>>> ajouts-jurgen
 
 ### **2.2 Emphasis**
 
 ### **2.3 Code**
+To indicate a span of code, wrap it with backtick quotes(\`).  
+This is used to indicate code within a normal paragraph.  
+- #### Exemple: 
+   > Use the `printf()` function.  
 
+If you want to include a literal backtick charachter within a code span,  
+you can use multiple backticks as the opeing and closing delimiters.
+- #### Exemple: 
+   > \`\` There is a backtick here -> ` ``
+   #### The output:
+   > `` There is a backtick here -> ` `` 
 ### **2.4 Images**
 
 
@@ -119,8 +162,6 @@ If a URL is not put into braces
 ### **3.1 Backslash Escapes**
 
 ### **3.2 Automatic Links**
-<<<<<<< HEAD
-=======
 If an e-mail adress or a website link is put w/o any markup synthax, Markdown will automatically "translate" it into usable links:
 
 For example, this : ``https://fr.wikipedia.org/wiki/Queen`` will become this : https://fr.wikipedia.org/wiki/Queen, awesome isn't it? 
@@ -139,4 +180,3 @@ It's the same procedure with an e-mail address as address@example.com referred l
 &#109;">&#x61;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#64;&#101;&#120;&#x61;
 &#109;&#x70;&#x6C;e&#x2E;&#99;&#111;&#109;</a>
 ```
->>>>>>> ajouts-jurgen
