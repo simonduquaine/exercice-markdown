@@ -26,9 +26,9 @@
 
 ### **1.3 Blockquotes**
 
-Pour pouvoir insérer du texte en HTML, il suffit de coller le texte HTML et taper sur TAB
+To be able to insert text in HTML, just paste the HTML text and type on TAB
 
-Exemple:
+Example:
 
     <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
     <html>
@@ -83,17 +83,16 @@ Exemple:
 
 ### **2.4 Images**
 
-Pour insérer une image fixe ou dynamique:
+To insert a still or dynamic image:
 
-   * ![nomdusite]\(liendusite) = image qui n'est pas clickable
+   *![sitename]\(linkofthesite) = image which is not clickable
 
-Exemple: ![Giphy.com](https://media.giphy.com/media/aacdmWnYUMRkk/giphy.gif)
+Example:
+![Giphy.com](https://media.giphy.com/media/aacdmWnYUMRkk/giphy.gif)
 
-  * [![nomdusite]\(liendusite)] = image qui renvoie au site
+   *[![sitename]\(linkofpicture)]\(linkofthesite) = image which refers to the site
 
-Exemple: [![Prestashop2.com](https://assets.prestashop2.com/sites/default/files/styles/blog_750x320/public/blog/fr/files/2015/01/7-resources-code-1024x537.png?itok=AXSLDOKg)]
-
-
+Example: [![Prestashop2.com](https://assets.prestashop2.com/sites/default/files/styles/blog_750x320/public/blog/fr/files/2015/01/7-resources-code-1024x537.png?itok=AXSLDOKg)](https://www.prestashop.com/fr)
 
 ## **3. Miscellaneous**
 
