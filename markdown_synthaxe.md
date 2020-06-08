@@ -63,7 +63,8 @@ Markdown provides backslash escapes for the following characters:
 
 1. `\`    backshlass
 
-2. `` ` backtick
+2. ``` ` ```  backtick
+
 3. `*`   asterisk
 
 4. `_`   underscore
