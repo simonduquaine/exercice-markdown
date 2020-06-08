@@ -12,3 +12,4 @@ You want some **emojis** in your file ? No problem. ( But not too much.. )
 
 ## So, don't hesitate and try Markdown, it's fun ! 
 
+![Fun](https://media.giphy.com/media/110F1JFzWKtiA8/giphy.gif)
