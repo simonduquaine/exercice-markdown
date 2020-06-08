@@ -1,5 +1,5 @@
 # What is Markdown?
-** Markdown ** is a text editing and formatting system; it is both a syntax, a text → HTML conversion script and a file format. It is commonly used for project or dataset documentation files - often named readme.md. It is stored in classic text format and is lighter than its interpreted version since it does not contain html tags.
+**Markdown** is a text editing and formatting system; it is both a syntax, a text → HTML conversion script and a file format. It is commonly used for project or dataset documentation files - often named readme.md. It is stored in classic text format and is lighter than its interpreted version since it does not contain html tags.
 
 The philosophy of the system is that the written text is readable without a particular interpreter in text mode. It is light and uncluttered with most of the verbosity of a marked-up language. Syntax elements are punctuation characters that make sense visually even when unconverted. Once converted, the web browser (which then acts as an interpreter) will make it easier to read.
 
