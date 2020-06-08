@@ -1,4 +1,4 @@
-# La Synthaxe et l'utilisation du Markdown 
+# La Synthaxe et l'utilisation du Markdown
 
 1. [Block Elements](#1-block-elements)  
    1.1 [Paragraphs and Line Break](#11-paragraphs-and-line-break)  
@@ -21,6 +21,12 @@
 
 
 ### **1.1 Paragraphs and Line Break**
+
+A paragraph is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line — a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
+
+The implication of the “one or more consecutive lines of text” rule is that Markdown supports “hard-wrapped” text paragraphs. This differs significantly from most other text-to-HTML formatters (including Movable Type’s “Convert Line Breaks” option) which translate every line break character in a paragraph into a `<br />` tag.
+
+When you do want to insert a `<br />` break tag using Markdown, you end a line with two or more spaces, then type return.
 
 ### **1.2 Headers**
 
@@ -74,6 +80,7 @@ H2
 
 ### **1.6 Horizontal Rules**
 
+You can produce a horizontal rule tag ( `<hr />` ) by placing three or more hyphens, asterisks, or underscores on a line by themselves. If you wish, you may use spaces between the hyphens or asterisks.
 
 ## **2. Span Elements**
 
@@ -112,9 +119,36 @@ If a URL is not put into braces
 
 ### **3.1 Backslash Escapes**
 
+Markdown allows you to use backslash escapes to generate literal characters which would otherwise have special meaning in Markdown’s formatting syntax. For example, if you wanted to surround a word with literal asterisks (instead of an HTML `<em>` tag), you can use backslashes before the asterisks.
+
+Markdown provides backslash escapes for the following characters:
+
+1. `\`    backshlass
+
+2. ``` ` ```  backtick
+
+3. `*`   asterisk
+
+4. `_`   underscore
+
+5. `{}`  curly braces
+
+6. `[]`  square brackets
+
+7. `()`  parentheses
+
+8. `#`   hashtag
+
+9. `+`   plus sign
+
+10. `-`   minus sign (hyphen)
+
+11. `.`   dot
+
+12. `!`  exclamation mark
+
+
 ### **3.2 Automatic Links**
-<<<<<<< HEAD
-=======
 If an e-mail adress or a website link is put w/o any markup synthax, Markdown will automatically "translate" it into usable links:
 
 For example, this : ``https://fr.wikipedia.org/wiki/Queen`` will become this : https://fr.wikipedia.org/wiki/Queen, awesome isn't it? 
@@ -133,4 +167,3 @@ It's the same procedure with an e-mail address as address@example.com referred l
 &#109;">&#x61;&#x64;&#x64;&#x72;&#x65;&#115;&#115;&#64;&#101;&#120;&#x61;
 &#109;&#x70;&#x6C;e&#x2E;&#99;&#111;&#109;</a>
 ```
->>>>>>> origin/ajouts-jurgen
