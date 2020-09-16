@@ -1,4 +1,4 @@
-# Travail de groupe sur le MarkDown
+# Travail de groupe sur le MarkDown.
 
 ## Objectifs du travail de groupe 
 - Apprendre le **MarkDown** ainsi que son utilité
